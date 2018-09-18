@@ -1,0 +1,10 @@
+[Unit]
+Description="Serial Port Logger on /dev/%I"
+
+[Service]
+ExecStart=/usr/bin/serlog.sh %I
+Restart=on-failure
+Restart-sec=2
+
+[Install]
+WantedBy=multi-user.target
