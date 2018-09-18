@@ -1,5 +1,5 @@
 # serlog
-This is a simple set of scripts for logging serial port input to the system journal.
+This is a simple set of scripts for logging serial port input to the system journal. I created these to monitor long-running tests for IoT devices.
 
 ---
 # Prerequisites
